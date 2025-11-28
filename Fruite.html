@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits - Restaurante</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .fruit-page {
+            padding: 100px 0 50px 0;
+            min-height: 100vh;
+        }
+        .fruit-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .fruit-header h1 {
+            font-size: 3rem;
+            color: #16a083;
+            margin-bottom: 20px;
+        }
+        .fruit-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .fruit-image {
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 0 auto 30px;
+            display: block;
+        }
+        .fruit-description {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #555;
+            text-align: justify;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: #16a083;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: background 0.3s;
+        }
+        .back-button:hover {
+            background: #117964;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <h1 class="logo">Diego Herrera</h1>
+            <ul class="menu-items">
+                <li><a href="Index.html#home">Home</a></li>
+                <li><a href="Index.html#about">About Us</a></li>
+                <li><a href="Index.html#food">Category</a></li>
+                <li><a href="Index.html#food-menu">Menu</a></li>
+                <li><a href="Index.html#testimonials">Testimonials</a></li>
+                <li><a href="Index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="fruit-page">
+        <div class="fruit-content">
+            <div class="fruit-header">
+                <h1>Fresh Fruits</h1>
+            </div>
+            
+            <img src="https://i.postimg.cc/yxThVPXk/food1.jpg" alt="Fresh Fruits" class="fruit-image">
+            
+            <div class="fruit-description">
+                <p>
+                    Fruits are nature's wonderful gift to humankind. They are packed with vitamins, minerals, 
+                    antioxidants and many phytonutrients (plant-derived micronutrients). They are an absolute 
+                    feast to our sight, not just because of their color and flavor but for their unique nutrition-profile 
+                    that help the human body stay fit and healthy!
+                </p>
+                <p>
+                    Our restaurant offers a wide variety of fresh, seasonal fruits sourced directly from local farms. 
+                    We believe in providing only the highest quality produce to ensure maximum nutritional value and taste. 
+                    From tropical delights to classic favorites, our fruit selection caters to every palate.
+                </p>
+                <p>
+                    Whether you're looking for a refreshing fruit salad, a nutritious smoothie, or fresh fruit as a side 
+                    to your meal, we have you covered. All our fruits are carefully selected, washed, and prepared with 
+                    the utmost care to maintain their natural goodness.
+                </p>
+                
+                <a href="Index.html#food" class="back-button">← Back to Categories</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <h2>Restaurante &copy; all rights reserved</h2>
+    </footer>
+</body>
+</html>

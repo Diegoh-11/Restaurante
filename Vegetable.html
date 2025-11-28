@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetables - Restaurante</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .vegetable-page {
+            padding: 100px 0 50px 0;
+            min-height: 100vh;
+        }
+        .vegetable-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .vegetable-header h1 {
+            font-size: 3rem;
+            color: #16a083;
+            margin-bottom: 20px;
+        }
+        .vegetable-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .vegetable-image {
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 0 auto 30px;
+            display: block;
+        }
+        .vegetable-description {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #555;
+            text-align: justify;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: #16a083;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: background 0.3s;
+        }
+        .back-button:hover {
+            background: #117964;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <h1 class="logo">Diego Herrera</h1>
+            <ul class="menu-items">
+                <li><a href="Index.html#home">Home</a></li>
+                <li><a href="Index.html#about">About Us</a></li>
+                <li><a href="Index.html#food">Category</a></li>
+                <li><a href="Index.html#food-menu">Menu</a></li>
+                <li><a href="Index.html#testimonials">Testimonials</a></li>
+                <li><a href="Index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="vegetable-page">
+        <div class="vegetable-content">
+            <div class="vegetable-header">
+                <h1>Fresh Vegetables</h1>
+            </div>
+            
+            <img src="https://i.postimg.cc/Nffm6Rkk/food2.jpg" alt="Fresh Vegetables" class="vegetable-image">
+            
+            <div class="vegetable-description">
+                <p>
+                    Vegetables are parts of plants that are consumed by humans as food. They are essential components 
+                    of a healthy diet, providing dietary fiber, vitamins, and minerals while being naturally low in fat 
+                    and calories. Regular consumption of vegetables is associated with reduced risk of many chronic diseases.
+                </p>
+                <p>
+                    At our restaurant, we pride ourselves on serving only the freshest vegetables available. We work 
+                    closely with local farmers to ensure that our produce is harvested at peak ripeness and delivered 
+                    fresh to your plate. From leafy greens to colorful bell peppers, our vegetable selection is both 
+                    diverse and delicious.
+                </p>
+                <p>
+                    Whether you prefer your vegetables raw in a crisp salad, lightly steamed to preserve nutrients, 
+                    or perfectly roasted to bring out their natural sweetness, our chefs prepare them with care and 
+                    expertise. Every dish showcases the natural flavors and textures of these wholesome ingredients.
+                </p>
+                
+                <a href="Index.html#food" class="back-button">← Back to Categories</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <h2>Restaurante &copy; all rights reserved</h2>
+    </footer>
+</body>
+</html>
